@@ -324,15 +324,19 @@ public class Window extends JFrame implements ActionListener{
 					switch(op){
 					case "add":
 						outputl.setText(Double.toString(Method.add(number1, number2)));
+						num = "number1";
 						break;
 					case "minus":
 						outputl.setText(Double.toString(Method.minus(number1, number2)));
+						num = "number1";
 						break;
 					case "multi":
 						outputl.setText(Double.toString(Method.multi(number1, number2)));
+						num = "number1";
 						break;
 					case "divide":
 						outputl.setText(Double.toString(Method.divide(number1, number2)));
+						num = "number1";
 						break;
 					}//end of switch of op
 				}else{
